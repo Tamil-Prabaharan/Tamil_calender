@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".poojaporurtkal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:visibility="visible">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardBackgroundColor="#99AEEA00"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/textView629"
+                                        android:layout_width="250dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:layout_marginTop="8dp"
+                                        android:text="பூமி பூஜை – முக்கியத்துவம், வழிபாட்டுமுறை மற்றும் வழிபடுவதற்கான பூஜை பொருட்கள்"
+                                        android:textColor="#000000"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView630"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="8dp"
+                                        android:text="பொதுவாக நாம் நிலம் வாங்கி வீடு அல்லது வேறு கட்டிடம் கட்டினால், அல்லது விவசாயம் செய்தால், முதலில் பூமி பூஜை செய்ய வேண்டியது அவசியம். இது பூமி தேவிக்கு நாம் செலுத்தும் மரியாதை அல்லது சிறப்பு சடங்கு ஆகும்.  அவ்வாறு செய்வதன் மூலம் பூமா தேவியின் ஆசிகளை நாம் பெற முடியும். இந்த பூஜை செய்வதன் மூலம் செழிப்பும் அமைதியும் கிட்டும். அது மட்டும் இன்றி, நாம் கட்டிட வேலை செய்யும் போது நிலத்தில் வாழும் புழு பூச்சிகளுக்கு நம்மால் தீங்கு ஏற்படலாம். அதற்கு மன்னிப்பு கேட்கும் நோக்கமாக இந்த சடங்கு அமையலாம்."
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView629" />
+
+                                    <TextView
+                                        android:id="@+id/textView631"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="பூஜைக்குத் தேவையான  பொருட்கள்"
+                                        android:textColor="#000000"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView630" />
+
+                                    <TextView
+                                        android:id="@+id/textView632"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="1.சாமி படங்கள் ( விநாயகர் அவசியம் வேண்டும்.)"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView631" />
+
+                                    <TextView
+                                        android:id="@+id/textView633"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="2.வெற்றிலை பாக்கு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView632" />
+
+                                    <TextView
+                                        android:id="@+id/textView634"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="3.மஞ்சள், குங்குமம், சந்தனம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView633" />
+
+                                    <TextView
+                                        android:id="@+id/textView635"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="4.பழம், தேங்காய்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView634" />
+
+                                    <TextView
+                                        android:id="@+id/textView636"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="5.ஊதுவத்தி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView635" />
+
+                                    <TextView
+                                        android:id="@+id/textView637"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="6.கற்பூரம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView636" />
+
+                                    <TextView
+                                        android:id="@+id/textView638"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="7.கங்கா ஜலம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView637" />
+
+                                    <TextView
+                                        android:id="@+id/textView639"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="8.விளக்கு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView638" />
+
+                                    <TextView
+                                        android:id="@+id/textView640"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="9.திரி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView639" />
+
+                                    <TextView
+                                        android:id="@+id/textView641"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="10.நெய் அல்லது எண்ணெய்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView640" />
+
+                                    <TextView
+                                        android:id="@+id/textView642"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="11.தண்ணீர்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView641" />
+
+                                    <TextView
+                                        android:id="@+id/textView644"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="12.அரிசி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView642" />
+
+                                    <TextView
+                                        android:id="@+id/textView645"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="13.தூபம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView644" />
+
+                                    <TextView
+                                        android:id="@+id/textView646"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="14.சிகப்பு நூல்கண்டு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView645" />
+
+                                    <TextView
+                                        android:id="@+id/textView647"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="15.நாணயங்கள்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView646" />
+
+                                    <TextView
+                                        android:id="@+id/textView648"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="16.ஆரத்தி தட்டு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView647" />
+
+                                    <TextView
+                                        android:id="@+id/textView649"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="17.பஞ்ச தாது"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView648" />
+
+                                    <TextView
+                                        android:id="@+id/textView650"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="18.சொம்பு "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView649" />
+
+                                    <TextView
+                                        android:id="@+id/textView651"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="19.மாவிலை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView650" />
+
+                                    <TextView
+                                        android:id="@+id/textView652"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="20.வாழை இலை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView651" />
+
+                                    <TextView
+                                        android:id="@+id/textView653"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="21.எலுமிச்சை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView652" />
+
+                                    <TextView
+                                        android:id="@+id/textView692"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="22.திருநீறு "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView653" />
+
+                                    <TextView
+                                        android:id="@+id/textView693"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="23.குடம் "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView692" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/textView654"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="பூஜைக்கான இடம் தேர்வு செய்தல்"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView655"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="பூமி பூஜைக்கு உகந்த இடத்தைக் கண்டறிய வேண்டும். காலையில் குளித்த பின் அந்த இடத்தை சுத்தம் செய்ய வேண்டும். கங்காஜல் கொண்டு சுத்திகரிப்பு செய்யவேண்டும். கட்டுமான தளத்தின் வடகிழக்கு மூலையில் "
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView654" />
+
+                                    <TextView
+                                        android:id="@+id/textView656"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="வாஸ்து திசை"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView655" />
+
+                                    <TextView
+                                        android:id="@+id/textView657"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="பூஜையை ஏற்பாடு செய்பவர் கிழக்கு திசையை நோக்கியும், பூசாரி வடக்கு திசை நோக்கியும் அமர்ந்திருக்க வேண்டும். பூமி பூஜையை தகுதியான அர்ச்சகர் மட்டுமே செய்ய வேண்டும்.  பூஜைக்கு அனுபவம் வாய்ந்த பூசாரி அவசியம், இது அனைத்து வாஸ்து தோஷங்கள் மற்றும் எதிர்மறை ஆற்றல்களை அகற்ற உதவுகிறது."
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView656" />
+
+                                    <TextView
+                                        android:id="@+id/textView658"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="விநாயகர் பூஜை"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView657" />
+
+                                    <TextView
+                                        android:id="@+id/textView659"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="விநாயகப் பெருமான், எந்தவொரு பூஜையையும் அல்லது வேலையையும் தொடங்குவதற்கு முன் பரவலாக வழிபடப்படுகிறார், ஏனெனில் அவர் நல்ல தொடக்கத்தின் கடவுளாகவும், தடைகளை அகற்றுபவராகவும் கருதப்படுகிறார். குலதெய்வத்தை வழிபடுவது செழிப்பையும் நல்ல அதிர்ஷ்டத்தையும் தருகிறது மற்றும் வீட்டைக் கட்டுவதில் எந்த தடையும் இல்லை என்பதை உறுதிப்படுத்துகிறது."
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView658" />
+
+                                    <TextView
+                                        android:id="@+id/textView660"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="கலச பூஜை"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView659" />
+
+                                    <TextView
+                                        android:id="@+id/textView661"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="ஒரு கலசம் அல்லது ஒரு பாத்திரத்தில் தண்ணீர் நிரப்பப்பட்டு, அதன் மேல் மாவிலை அல்லது வெற்றிலையை தேங்காயுடன் வைக்க வேண்டும். லட்சுமி தேவியின் ஆசீர்வாதத்தைப் பெறுவதற்காக நாணயங்களும் வெற்றிலைகளும் கலசத்திற்குள் வைக்கப்படுகின்றன. வாஸ்து படி, கலசம் .பிரபஞ்சத்தை அடையாளப்படுத்துகிறது."
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView660" />
+
+                                    <TextView
+                                        android:id="@+id/textView662"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="பூமி பூஜை"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView661" />
+
+                                    <TextView
+                                        android:id="@+id/textView663"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginBottom="16dp"
+                                        android:text="புனிதமான முஹுர்தத்தில், கணபதி பூஜை மற்றும் ஹோமம் உட்பட முக்கிய பூமி பூஜை சடங்குகள் நடத்தப்படுகிறது. பொதுவாக, பூஜையில் திசைகளின் கடவுள், திக்பாலகர்கள் நாகர்கள், பஞ்சபூதங்கள் வழிபாடு அடங்கும். மற்றும் குல தெய்வ வழிபாடு (குடும்ப தெய்வம்). சங்கல்பம், ஷட்கர்மா, பிரான் பிரதிஷ்டை மற்றும் மாங்க்லிக் திரவிய ஸ்தாபனம் போன்ற சடங்குகள் நடத்த வேண்டும். பூஜையின் போது, பூக்கள், அட்சதை (பச்சை அரிசி), குங்குமம், மஞ்சள், சந்தனம், தூபக் குச்சிகள், கலவா (புனித நூல்), பழங்கள், வெற்றிலை, பாக்கு, இனிப்புகள் போன்றவற்றைப் பயன்படுத்தி வேத மந்திரங்கள்  ஓதி பூஜைகள் நடத்த வேண்டும். பூமி பூஜைக்கு வந்தவர்களுக்கு இனிப்புகள் மற்றும் பழங்கள் வழங்கப்பட வேண்டும். இதைத் தொடர்ந்து பலிதானம் அல்லது சிறப்புப் பிரசாதம், ஹலா கர்ஷானா அல்லது தளத்தை சமன் செய்தல் மற்றும் அனுகுரா-ரூபனா அல்லது விதைகளை விதைத்தல் போன்ற பிற சடங்குகள் பின்பற்றப்படுகின்றன. ஷிலான்யாஸம் அல்லது அடிக்கல் நாட்டுவது அடுத்த கட்டத்தில் செய்யப்படுகிறது. வாஸ்து படி, அடிக்கல் நாட்டு விழாவின் போது அந்த இடத்தில் நான்கு செங்கற்கள் போடப்படுகின்றன. "
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView662" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:visibility="visible">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardBackgroundColor="#D0FFD600"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    tools:visibility="visible">
+
+                                    <TextView
+                                        android:id="@+id/textView664"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="24dp"
+                                        android:text="வாசக்கால் பூசை சமான்"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView665"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="1.மஞ்சள் - 100 கிராம்  "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView664" />
+
+                                    <TextView
+                                        android:id="@+id/textView666"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="2.குங்குமம் சந்தனம் - 100 கிராம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView665" />
+
+                                    <TextView
+                                        android:id="@+id/textView667"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="3.வெற்றிலை பாக்கு - 5"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView666" />
+
+                                    <TextView
+                                        android:id="@+id/textView668"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="4.வாழை இலை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView667" />
+
+                                    <TextView
+                                        android:id="@+id/textView669"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="5.வாழைப்பழம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView668" />
+
+                                    <TextView
+                                        android:id="@+id/textView670"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="6.எலுமிச்சை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView669" />
+
+                                    <TextView
+                                        android:id="@+id/textView671"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="7.தேங்காய்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView670" />
+
+                                    <TextView
+                                        android:id="@+id/textView672"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="8.பூசணிக்காய்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView671" />
+
+                                    <TextView
+                                        android:id="@+id/textView673"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="9.பொறி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView672" />
+
+                                    <TextView
+                                        android:id="@+id/textView674"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="10.பொட்டு கடலை மற்றும் சாக்லெட்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView673" />
+
+                                    <TextView
+                                        android:id="@+id/textView675"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="11.நாட்டு சக்கரை மற்றும் கற்கண்டு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView674" />
+
+                                    <TextView
+                                        android:id="@+id/textView676"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="12.பெரிய கற்பூரம், சிறிய கற்பூரம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView675" />
+
+                                    <TextView
+                                        android:id="@+id/textView677"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="13.ஊதுபத்தி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView676" />
+
+                                    <TextView
+                                        android:id="@+id/textView678"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="14.சாம்பிராணி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView677" />
+
+                                    <TextView
+                                        android:id="@+id/textView679"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="15.Sweet லட்டு மற்றும் மிக்சர்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView678" />
+
+                                    <TextView
+                                        android:id="@+id/textView680"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="16.ஆரஞ்சு மற்றும் ஆப்பிள்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView679" />
+
+                                    <TextView
+                                        android:id="@+id/textView681"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="17.விளக்கு, எண்ணெய், திரி, தீப்பெட்டி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView680" />
+
+                                    <TextView
+                                        android:id="@+id/textView682"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="18.பஞ்சலோகம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView681" />
+
+                                    <TextView
+                                        android:id="@+id/textView683"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="19.நவரெத்தினக்கல்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView682" />
+
+                                    <TextView
+                                        android:id="@+id/textView684"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="20.வாஸ்து தகடு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView683" />
+
+                                    <TextView
+                                        android:id="@+id/textView685"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="21.நவதாணியம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView684" />
+
+                                    <TextView
+                                        android:id="@+id/textView686"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="22.சிறிய தங்கம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView685" />
+
+                                    <TextView
+                                        android:id="@+id/textView687"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="23.ஆறடி மாழை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView686" />
+
+                                    <TextView
+                                        android:id="@+id/textView688"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="24.சிறிய சிவப்பு துணி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView687" />
+
+                                    <TextView
+                                        android:id="@+id/textView689"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="25.தாம்பூலம் தட்டு "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView688" />
+
+                                    <TextView
+                                        android:id="@+id/textView690"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="26.சொம்பு "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView689" />
+
+                                    <TextView
+                                        android:id="@+id/textView691"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="27.திருநீறு "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView690" />
+
+                                    <TextView
+                                        android:id="@+id/textView694"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:text="கார்பெண்டர் மற்றும் மேஸ்திரி சேர்ந்து நடத்தும் பூஜை இந்த பூஜை கன்னி அல்லது ஈசானி மூலையில் நடத்தலாம். தலைவாசல் நிலவை நிறுத்தும்போது ஒற்றை படையில் ஆட்கள் நிறுத்தவும் வீட்டில் பெரியவர்கள் அல்லது பெண்கள் எல்லோரும் சேர்ந்து நிறுத்துவார்கள். "
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView691" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        app:cardBackgroundColor="#B5FF6D00"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/textView695"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="24dp"
+                                        android:text="மேல்கூரை காணகிரெட் பூஜை பொருட்கள் "
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/textView696"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="1.சாமி படங்கள் ( விநாயகர் அவசியம் வேண்டும்.)"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView695" />
+
+                                    <TextView
+                                        android:id="@+id/textView697"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="2.வெற்றிலை பாக்கு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView696" />
+
+                                    <TextView
+                                        android:id="@+id/textView698"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="3.மஞ்சள், குங்குமம், சந்தனம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView697" />
+
+                                    <TextView
+                                        android:id="@+id/textView699"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="4.பழம், தேங்காய்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView698" />
+
+                                    <TextView
+                                        android:id="@+id/textView700"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="5.ஊதுவத்தி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView699" />
+
+                                    <TextView
+                                        android:id="@+id/textView701"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="6.கற்பூரம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView700" />
+
+                                    <TextView
+                                        android:id="@+id/textView702"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="7.கங்கா ஜலம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView701" />
+
+                                    <TextView
+                                        android:id="@+id/textView703"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="8.விளக்கு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView702" />
+
+                                    <TextView
+                                        android:id="@+id/textView704"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="9.திரி"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView703" />
+
+                                    <TextView
+                                        android:id="@+id/textView705"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="10.நெய் அல்லது எண்ணெய்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView704" />
+
+                                    <TextView
+                                        android:id="@+id/textView706"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="11.தண்ணீர்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView705" />
+
+                                    <TextView
+                                        android:id="@+id/textView707"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="12.பொறி "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView706" />
+
+                                    <TextView
+                                        android:id="@+id/textView708"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="13.தூபம்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView707" />
+
+                                    <TextView
+                                        android:id="@+id/textView709"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="14.சிகப்பு நூல்கண்டு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView708" />
+
+                                    <TextView
+                                        android:id="@+id/textView710"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="15.நாணயங்கள்"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView709" />
+
+                                    <TextView
+                                        android:id="@+id/textView711"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="16.ஆரத்தி தட்டு"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView710" />
+
+                                    <TextView
+                                        android:id="@+id/textView712"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="17.பஞ்ச தாது"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView711" />
+
+                                    <TextView
+                                        android:id="@+id/textView713"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="18.சொம்பு "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView712" />
+
+                                    <TextView
+                                        android:id="@+id/textView714"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="19.வாழை இலை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView713" />
+
+                                    <TextView
+                                        android:id="@+id/textView715"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="20.எலுமிச்சை"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView714" />
+
+                                    <TextView
+                                        android:id="@+id/textView716"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:text="21.திருநீறு "
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView715" />
+
+                                    <TextView
+                                        android:id="@+id/textView717"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginBottom="32dp"
+                                        android:text="காணகிரெட் வேலை செய்பவர்கள் மற்றும் மேஸ்திரி சேர்ந்து நடத்தும் பூஜை இந்த பூஜை கன்னி அல்லது ஈசானி மூலையில் நடத்தலாம். "
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/textView716" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </LinearLayout>
+                        </ScrollView>
+                    </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

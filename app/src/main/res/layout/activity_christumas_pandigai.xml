@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".christumas_pandigai">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView522"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:text="கிறிஸ்துவ பண்டிகைகள்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView524"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="ஜனவரி"
+                    android:textColor="#00E676"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView522" />
+
+                <TextView
+                    android:id="@+id/textView525"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="1 திங்கள் ஆங்கிலப்புத்தாண்டு"
+                    app:layout_constraintStart_toStartOf="@+id/textView524"
+                    app:layout_constraintTop_toBottomOf="@+id/textView524" />
+
+                <TextView
+                    android:id="@+id/textView526"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="பிப்ரவரி"
+                    android:textColor="#00E676"
+                    app:layout_constraintStart_toStartOf="@+id/textView525"
+                    app:layout_constraintTop_toBottomOf="@+id/textView525" />
+
+                <TextView
+                    android:id="@+id/textView527"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="2 வெள்ளி  தேவமாதா பரிசுத்தரான திருநாள்"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView526" />
+
+                <TextView
+                    android:id="@+id/textView528"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="14 புதன்  ஆஷ் வென்ஸ்டே"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView527" />
+
+                <TextView
+                    android:id="@+id/textView529"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="18 ஞாயிறு பஸ்ட் ஸன்டே"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView528" />
+
+                <TextView
+                    android:id="@+id/textView530"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="மார்ச்"
+                    android:textColor="#00E676"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView529" />
+
+                <TextView
+                    android:id="@+id/textView531"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="29 வெள்ளி  புனித வெள்ளி"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView530" />
+
+                <TextView
+                    android:id="@+id/textView532"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="31 ஞாயிறு ஈஸ்டர் டே"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView531" />
+
+                <TextView
+                    android:id="@+id/textView533"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="ஜூலை"
+                    android:textColor="#00E676"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView532" />
+
+                <TextView
+                    android:id="@+id/textView534"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="2 செவ்வாய்  தேவ மாதா காட்சியருளிய நாள்"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView533" />
+
+                <TextView
+                    android:id="@+id/textView535"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="செப்டம்பர் "
+                    android:textColor="#00E676"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView534" />
+
+                <TextView
+                    android:id="@+id/textView536"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="8 ஞாயிறு தேவமாதா பிறந்த நாள்"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView535" />
+
+                <TextView
+                    android:id="@+id/textView537"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="டிசம்பர் "
+                    android:textColor="#00E676"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView536" />
+
+                <TextView
+                    android:id="@+id/textView538"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="24 செவ்வாய்  கிறிஸ்துமஸ் ஈவ்"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView537" />
+
+                <TextView
+                    android:id="@+id/textView539"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="25 புதன் கிறிஸ்து ஜெயந்தி"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView538" />
+
+                <TextView
+                    android:id="@+id/textView540"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="31 செவ் நியூ ஈயர்ஸ் ஈவ்"
+                    app:layout_constraintStart_toStartOf="@+id/textView526"
+                    app:layout_constraintTop_toBottomOf="@+id/textView539" />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

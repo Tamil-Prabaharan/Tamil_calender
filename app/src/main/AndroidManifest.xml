@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TamilCalender"
+        tools:targetApi="31">
+        <activity
+            android:name=".edcr"
+            android:exported="false" />
+        <activity
+            android:name=".vasthuserukuripu"
+            android:exported="false" />
+        <activity
+            android:name=".poojaporurtkal"
+            android:exported="false" />
+        <activity
+            android:name=".veetumanai_kuli_kanakku"
+            android:exported="false" />
+        <activity
+            android:name=".Vathu_Seerukuripu_Veetumanai"
+            android:exported="false" />
+        <activity
+            android:name=".Pooja_Materialas"
+            android:exported="false" />
+        <activity
+            android:name=".Veetumanaiyadi_Kuli_Kanakku"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".rrrrasi"
+            android:exported="false" />
+        <activity
+            android:name=".varuda_rasi_palan"
+            android:exported="false" />
+        <activity
+            android:name=".arasinar_vidumurai"
+            android:exported="false" />
+        <activity
+            android:name=".muslim_pandigai"
+            android:exported="false" />
+        <activity
+            android:name=".christumas_pandigai"
+            android:exported="false" />
+        <activity
+            android:name=".madhakatti"
+            android:exported="false" />
+        <activity
+            android:name=".nalekatti"
+            android:exported="false" />
+        <activity
+            android:name=".pandigaiandarasuvidumurai"
+            android:exported="false" />
+        <activity
+            android:name=".mukkiya_viratha_thinagal"
+            android:exported="false" />
+        <activity
+            android:name=".vasthu_seiyum_natkkal"
+            android:exported="false" />
+        <activity
+            android:name=".ragu_kuligai_yeamagandam"
+            android:exported="false" />
+        <activity
+            android:name=".inthupandigai"
+            android:exported="false" />
+        <activity
+            android:name=".palli_villum_palan"
+            android:exported="false" />
+        <activity
+            android:name=".subamugurtha_thinagal"
+            android:exported="false" />
+        <activity
+            android:name=".vasthu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

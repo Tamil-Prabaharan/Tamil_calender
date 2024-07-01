@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".varuda_rasi_palan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView594"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="வருடராசி பலன் "
+                    android:textColor="#000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="16dp"
+                    android:text="மேஷம்"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView594" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="40dp"
+                    android:text="துலாம்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/button13" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="ரிஷபம்"
+                    app:layout_constraintStart_toStartOf="@+id/button13"
+                    app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="விருச்சி"
+                    app:layout_constraintEnd_toEndOf="@+id/button14"
+                    app:layout_constraintTop_toTopOf="@+id/button15" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="மிதுனம்"
+                    app:layout_constraintStart_toStartOf="@+id/button15"
+                    app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="தனுசு"
+                    app:layout_constraintEnd_toEndOf="@+id/button16"
+                    app:layout_constraintTop_toTopOf="@+id/button17" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="கடகம்"
+                    app:layout_constraintStart_toStartOf="@+id/button17"
+                    app:layout_constraintTop_toBottomOf="@+id/button18" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="மகரம்"
+                    app:layout_constraintEnd_toEndOf="@+id/button18"
+                    app:layout_constraintTop_toTopOf="@+id/button19" />
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="சிம்மம்"
+                    app:layout_constraintStart_toStartOf="@+id/button19"
+                    app:layout_constraintTop_toBottomOf="@+id/button20" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="கும்பம் "
+                    app:layout_constraintEnd_toEndOf="@+id/button20"
+                    app:layout_constraintTop_toTopOf="@+id/button21" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="கன்னி"
+                    app:layout_constraintStart_toStartOf="@+id/button21"
+                    app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="மீனம்"
+                    app:layout_constraintEnd_toEndOf="@+id/button22"
+                    app:layout_constraintTop_toTopOf="@+id/button23" />
+
+                <TextView
+                    android:id="@+id/textView591"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:text="."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+                <TextView
+                    android:id="@+id/textView592"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView591" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

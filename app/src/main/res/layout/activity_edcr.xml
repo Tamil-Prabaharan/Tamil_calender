@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edcr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView719"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text=" EDCR க்கு தேவையான ஆவணங்கள்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView722"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="2) முதல் பெற்றோர் ஆவணத்தின் நகல் (1975-தற்போதைய ஆவணம்)"
+                    app:layout_constraintStart_toStartOf="@+id/textView721"
+                    app:layout_constraintTop_toBottomOf="@+id/textView721" />
+
+                <TextView
+                    android:id="@+id/textView721"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:text="1. கடந்த 13 ஆண்டுகளாக EC"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView719" />
+
+                <TextView
+                    android:id="@+id/textView723"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="3) விற்பனைப் பத்திரம்/குத்தகைப் பத்திரம்/பரிசுப் பத்திரம்/பிரிவு பத்திரம்/பவர் அட்டர்னி பத்திரத்தின் நகல்"
+                    app:layout_constraintStart_toStartOf="@+id/textView722"
+                    app:layout_constraintTop_toBottomOf="@+id/textView722" />
+
+                <TextView
+                    android:id="@+id/textView724"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="4) டவுன் சர்வே லேண்ட் ரெக்கார்டு(எஃப்எம்பி, டவுன்சர்வே மேப் பட்டா.சிட்டா அடங்கல்) "
+                    app:layout_constraintStart_toStartOf="@+id/textView723"
+                    app:layout_constraintTop_toBottomOf="@+id/textView723" />
+
+                <TextView
+                    android:id="@+id/textView725"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="5) தளத் திட்டம் பொருத்தமான அளவில்"
+                    app:layout_constraintStart_toStartOf="@+id/textView724"
+                    app:layout_constraintTop_toBottomOf="@+id/textView724" />
+
+                <TextView
+                    android:id="@+id/textView726"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text=" 6) TOPO திட்டம் 100 மீட்டர் சுற்றளவு"
+                    app:layout_constraintStart_toStartOf="@+id/textView725"
+                    app:layout_constraintTop_toBottomOf="@+id/textView725" />
+
+                <TextView
+                    android:id="@+id/textView727"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text=" 7) உள்ளாட்சி அமைப்பின் நிர்வாக அதிகாரியின் அணுகு சாலை விவரங்களின் சான்றிதழ்"
+                    app:layout_constraintStart_toStartOf="@+id/textView726"
+                    app:layout_constraintTop_toBottomOf="@+id/textView726" />
+
+                <TextView
+                    android:id="@+id/textView728"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="8) தொழிலாளர் பணிக்கான மதிப்பீட்டின் நகல்"
+                    app:layout_constraintStart_toStartOf="@+id/textView727"
+                    app:layout_constraintTop_toBottomOf="@+id/textView727" />
+
+                <TextView
+                    android:id="@+id/textView729"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text=" 9) டெம்ப்ளேட்டின் படி விண்ணப்பதாரரால் முறையாக நிரப்பப்பட்ட புள்ளிவிவரங்கள்"
+                    app:layout_constraintStart_toStartOf="@+id/textView728"
+                    app:layout_constraintTop_toBottomOf="@+id/textView728" />
+
+                <TextView
+                    android:id="@+id/textView730"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="1 0) உறுதிமொழிப் பத்திரம் முறையாக நிரப்பப்பட்டு கையொப்பமிடப்பட்டது"
+                    app:layout_constraintStart_toStartOf="@+id/textView729"
+                    app:layout_constraintTop_toBottomOf="@+id/textView729" />
+
+                <TextView
+                    android:id="@+id/textView731"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="11) வரைபடத்தில் காட்டப்பட்டுள்ள மழைநீர் சேகரிப்பு அமைப்பு"
+                    app:layout_constraintStart_toStartOf="@+id/textView730"
+                    app:layout_constraintTop_toBottomOf="@+id/textView730" />
+
+                <TextView
+                    android:id="@+id/textView732"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="12) விண்ணப்பதாரர் புகைப்பட நகல்."
+                    app:layout_constraintStart_toStartOf="@+id/textView731"
+                    app:layout_constraintTop_toBottomOf="@+id/textView731" />
+
+                <TextView
+                    android:id="@+id/textView733"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:text="13) விண்ணப்பதாரர் அடையாளம்"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/textView732"
+                    app:layout_constraintTop_toBottomOf="@+id/textView732" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
