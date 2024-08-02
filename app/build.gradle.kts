@@ -12,8 +12,8 @@ android {
         applicationId = "com.tamilcalender"
         minSdk = 24
         targetSdk = 34
-        versionCode = 7
-        versionName = "2.0"
+        versionCode = 8
+        versionName = "2.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -35,8 +35,6 @@ android {
 }
 
 dependencies {
-
-
 
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")

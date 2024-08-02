@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView tamil_date;
     private TextView varuda_rasi_palan;
-    private TextView thirukural;
+    private TextView thirukural,compass;
 
-    private CardView veetumaniyadi_kuli_kanakku1,vasthu_seerukuripu,poojaiporutkkal,edcr;
+    private CardView veetumaniyadi_kuli_kanakku1,vasthu_seerukuripu,poojaiporutkkal,edcr,compass1;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -58,11 +58,13 @@ public class MainActivity extends AppCompatActivity {
         tamil_date = (TextView) findViewById(R.id.textView2);
         varuda_rasi_palan = (TextView) findViewById(R.id.textView10);
         thirukural = (TextView) findViewById(R.id.textView11);
+        compass = (TextView) findViewById(R.id.textView720);
 
         veetumaniyadi_kuli_kanakku1 = (CardView) findViewById(R.id.veetumani_kuli_kanakku);
         poojaiporutkkal = (CardView) findViewById(R.id.poojai_porutkkal);
         vasthu_seerukuripu = (CardView) findViewById(R.id.vasthu_seerukuripu_veetumanai);
         edcr = (CardView) findViewById(R.id.Edcr_plan);
+        compass1 = (CardView) findViewById(R.id.compass);
 
         text_view_date.setText(getToDAyDAte());
         /***************************************************************************
@@ -75,6 +77,13 @@ public class MainActivity extends AppCompatActivity {
         String dateString = sdf.format(currentDate);
         // Show text based on the current date
         showTextBasedOnDate(dateString);
+
+        compass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity17();
+            }
+        });
 
         edcr.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -266,6 +275,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void activity16() {
         Intent intent = new Intent(this,edcr.class);
+        startActivity(intent);
+
+    }
+
+    private void activity17() {
+        Intent intent = new Intent(this,compass.class);
         startActivity(intent);
 
     }

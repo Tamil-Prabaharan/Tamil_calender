@@ -3,4 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="greeen">#64DD17</color>
+    <color name="dark_greeen">#43A047</color>
+    <color name="light_blue">#00ACC1</color>
+    <color name="orange">#E53935</color>
+    <color name="yellow">#FDD835</color>
+    <color name="pink">#D81B60</color>
+    <style name="n">
+        <item name="color">@color/design_default_color_secondary</item>
+    </style>
 </resources>

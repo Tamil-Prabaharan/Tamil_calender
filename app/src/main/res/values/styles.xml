@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalendarDateText">
+        <item name="android:background">@drawable/selected_date_background</item>
+    </style>
+
+    <style name="CalendarWeekDayText">
+        <!-- Customize week day text appearance if needed -->
+    </style>
+</resources>
