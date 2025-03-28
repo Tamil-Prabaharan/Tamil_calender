@@ -10,4 +10,78 @@
         <item>A smooth sea never made a skilled sailor.</item>
     </string-array>
 
+    <string-array name="units_area">
+        <item>சதுர_மீட்டர்</item>
+        <item>சதுர_கிலோமீட்டர்</item>
+        <item>சதுர_மைல்</item>
+        <item>சதுர_முற்றம்</item>
+        <item>சதுர_அடி</item>
+        <item>சதுர_இன்ச்</item>
+        <item>ஹெக்டேர்</item>
+        <item>ஏக்கர்</item>
+    </string-array>
+
+    <string-array name="units_volume">
+        <item>கன_அடி</item>
+        <item>கன_மீட்டர்</item>
+        <item>கன_இன்ச்</item>
+    </string-array>
+
+    <string-array name="units_temprature">
+        <item>டிகிரி_செல்சியஸ்</item>
+        <item>கெல்வின்</item>
+        <item>பாரன்ஹீட்</item>
+    </string-array>
+
+    <string-array name="units_angle">
+        <item>வில்_விநாடி</item>
+        <item>கிரேடியன்</item>
+        <item>ரேடியன்</item>
+    </string-array>
+
+    <string-array name="units1">
+        <item>அடி</item>
+        <item>மீட்டர்</item>
+        <item>முற்றம்</item>
+        <item>இன்ச்</item>
+        <item>கிலோமீட்டர்</item>
+        <item>மில்லிமீட்டர்</item>
+        <item>சென்டிமீட்டர்</item>
+        <item>மைல்</item>
+        <item>கடல் மைல்</item>
+    </string-array>
+
+    <string-array name="vatti">
+        <item>percentage</item>
+        <item>paisa</item>
+        <item>ruba</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>year</item>
+        <item>month</item>
+        <item>day</item>
+        <item>hour</item>
+        <item>minutes</item>
+        <item>seconds</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>அடி</item>
+    </string-array>
+
+    <string-array name="units_area_coverage1">
+        <item>சதுர_மீட்டர்</item>
+        <item>சதுர_முற்றம்</item>
+        <item>சதுர_அடி</item>
+        <item>சதுர_இன்ச்</item>
+    </string-array>
+
+    <string-array name="units_area_coverage">
+        <item>சதுர_அடி</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

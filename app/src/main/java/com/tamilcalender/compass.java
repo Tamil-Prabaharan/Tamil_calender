@@ -14,7 +14,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class compass extends AppCompatActivity {
+    private AdView adView;
     //todo:banner ads
 
     private ImageView imageView;
@@ -32,6 +37,19 @@ public class compass extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compass);
+
+
+
+        //todo:banner ads
+        // Initialize the Mobile Ads SDK
+        MobileAds.initialize(this, initializationStatus -> {});
+        // Find the AdView as defined in the XML
+        adView = findViewById(R.id.adView17);
+        // Create an ad request
+        AdRequest adRequest = new AdRequest.Builder().build();
+        // Load the ad into the AdView
+        adView.loadAd(adRequest);
+
 
         imageView = (ImageView) findViewById(R.id.compass);
 
@@ -73,6 +91,7 @@ public class compass extends AppCompatActivity {
         };
         sensorManager.registerListener(sensorEventListenerAccelrometer, sensorAccelerometer, SensorManager.SENSOR_DELAY_NORMAL);
         sensorManager.registerListener(sensorEventListenerMagneticField, sensorMagneticField, SensorManager.SENSOR_DELAY_NORMAL);
+
     }
 
     public void ResetButton(View view){

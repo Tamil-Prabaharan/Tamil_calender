@@ -8,16 +8,33 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class varuda_rasi_palan extends AppCompatActivity {
     private Button measam,resabam,mithunam,kadagam,simmam,kanni,thulam,
             viruchigam,thanusu,magaram,kumbam,meenam;
 
     private TextView rasi,description;
 
+    private AdView adView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_varuda_rasi_palan);
+
+        //todo:banner ads
+        // Initialize the Mobile Ads SDK
+        MobileAds.initialize(this, initializationStatus -> {});
+        // Find the AdView as defined in the XML
+        adView = findViewById(R.id.adView6);
+        // Create an ad request
+        AdRequest adRequest = new AdRequest.Builder().build();
+        // Load the ad into the AdView
+        adView.loadAd(adRequest);
+
 
         measam = (Button) findViewById(R.id.button13);
         resabam = (Button) findViewById(R.id.button15);
@@ -39,6 +56,7 @@ public class varuda_rasi_palan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 activity1();
+
             }
         });
 
@@ -46,12 +64,14 @@ public class varuda_rasi_palan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 activity2();
+
             }
         });
         mithunam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 activity3();
+
             }
         });
 
@@ -59,12 +79,14 @@ public class varuda_rasi_palan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 activity4();
+
             }
         });
         simmam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 activity5();
+
             }
         });
 
@@ -72,12 +94,14 @@ public class varuda_rasi_palan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 activity6();
+
             }
         });
         thulam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 activity7();
+
             }
         });
 
@@ -85,12 +109,14 @@ public class varuda_rasi_palan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 activity8();
+
             }
         });
         thanusu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 activity9();
+
             }
         });
 
@@ -98,12 +124,14 @@ public class varuda_rasi_palan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 activity10();
+
             }
         });
         kumbam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 activity11();
+
             }
         });
 
@@ -111,9 +139,9 @@ public class varuda_rasi_palan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 activity12();
+
             }
         });
-
 
 
 

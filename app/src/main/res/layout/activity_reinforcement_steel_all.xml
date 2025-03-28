@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reinforcement_steel_all"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginEnd="-50dp"
+            android:rotation="45"
+            android:src="@drawable/a1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a1" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginEnd="-100dp"
+            android:rotation="45"
+            android:src="@drawable/a2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a2" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:rotation="45"
+            android:src="@drawable/a3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="தமிழ் காலண்டர் "
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button72"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#00000000"
+            android:foreground="@drawable/ic_share_24"
+            app:layout_constraintEnd_toEndOf="@+id/imageView14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView522"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="பிஓட்டிங் மேட் (ராபிட்) ஓர் பைல் பௌண்டேஷன். தெரிந்து கொள்ளுங்கள்"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button72" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="#00000000"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:menu="@menu/bottom_nav_menu">
+
+                        <Spinner
+                            android:id="@+id/spinner71"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView594"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="அடித்தளம் அளவுகள் "
+                            android:textColor="#7CB342"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView541"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:text="அடித்தளம் நீளம் "
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toTopOf="@+id/editTextNumberDecimal2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView594" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView541" />
+
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal2" />
+
+                        <TextView
+                            android:id="@+id/textView739"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="அடித்தளம் அகலம் "
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal2" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal2"
+                            app:layout_constraintTop_toBottomOf="@+id/textView739" />
+
+                        <Spinner
+                            android:id="@+id/spinner2"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal3" />
+
+                        <TextView
+                            android:id="@+id/textView740"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="கம்பி இடைவெளி"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal3" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal3"
+                            app:layout_constraintTop_toBottomOf="@+id/textView740" />
+
+                        <Spinner
+                            android:id="@+id/spinner3"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            android:backgroundTint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner2"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal4" />
+
+                        <TextView
+                            android:id="@+id/textView830"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="மெயின் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal4" />
+
+                        <TextView
+                            android:id="@+id/textView831"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="டிஸ்ட்ரிபியூஷன் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal39" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal4"
+                            app:layout_constraintTop_toBottomOf="@+id/textView830" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal39"
+                            app:layout_constraintTop_toBottomOf="@+id/textView831" />
+
+                        <Spinner
+                            android:id="@+id/spinner18"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner3"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal39" />
+
+                        <Spinner
+                            android:id="@+id/spinner19"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner18"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal40" />
+
+                        <TextView
+                            android:id="@+id/textView741"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="அஸ்திவாரங்கள், தூண்கள் மற்றும் கற்றைகளில் எஃகு வலுவூட்டல் அதன் வலிமை மற்றும் நீடித்த தன்மையை அதிகரிக்க எஃகு கம்பிகளை (ரீபார்) கான்கிரீட்டில் உட்பொதிப்பதை உள்ளடக்கியது. எஃகு கம்பிகள் இழுவிசை வலிமையை வழங்குகின்றன, கான்கிரீட் இல்லாததால், கட்டமைப்பு சுமைகளைத் தாங்கும், விரிசல்களை எதிர்க்கும் மற்றும் வெளிப்புற சக்திகளைத் தாங்கும். இந்த வலுவூட்டல் கட்டிடங்களின் ஸ்திரத்தன்மை மற்றும் நீண்ட ஆயுளுக்கு முக்கியமானது, மன அழுத்தத்தை விநியோகிக்க உதவுகிறது மற்றும் கட்டமைப்பு தோல்வியைத் தடுக்கிறது."
+                            android:textAlignment="center"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal40" />
+
+
+                        <com.google.android.gms.ads.AdView
+                            android:id="@+id/adView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="ca-app-pub-8900433304953392/3943007291"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView741" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal70"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal33"
+                            app:layout_constraintTop_toBottomOf="@+id/textView880" />
+
+                        <TextView
+                            android:id="@+id/textView880"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="டிஸ்ட்ரிபியூஷன் கம்பி எண்ணிக்கை "
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal33" />
+
+                        <Spinner
+                            android:id="@+id/spinner53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner52"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal42" />
+
+                        <Spinner
+                            android:id="@+id/spinner52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner50"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal41" />
+
+                        <Spinner
+                            android:id="@+id/spinner50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner49"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal34" />
+
+                        <Spinner
+                            android:id="@+id/spinner49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner48"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal69" />
+
+                        <Spinner
+                            android:id="@+id/spinner48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner47"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal32" />
+
+                        <Spinner
+                            android:id="@+id/spinner47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal5" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal69"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal32"
+                            app:layout_constraintTop_toBottomOf="@+id/textView878" />
+
+                        <TextView
+                            android:id="@+id/textView878"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="தூண் உயரம்"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal32" />
+
+                        <Button
+                            android:id="@+id/button63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:backgroundTint="#43A047"
+                            android:text="தனி கணக்கிடு"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberSigned3" />
+
+                        <TextView
+                            android:id="@+id/textView747"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="மண்ணின் ஆழத்திலிருந்து கட்டிட அடித்தளத்தின் உயரம் வரை கீழே குறிப்பிட"
+                            android:textAlignment="center"
+                            android:textSize="16sp"
+                            android:visibility="gone"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView748"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="அடித்தளம் உயரம்"
+                            app:layout_constraintEnd_toStartOf="@+id/editTextNumberSigned3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView747" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberSigned3"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberSigned"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintBottom_toBottomOf="@+id/textView748"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textView748"
+                            app:layout_constraintTop_toTopOf="@+id/textView748" />
+
+                        <TextView
+                            android:id="@+id/textView750"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="தூண் நான்கு பக்கங்களைக் கொண்டது, இரண்டு பக்கங்களும் ஒரே அளவு மற்றும் மற்ற இரண்டு பக்கங்களும் ஒரே அளவு.தூண் அளவை உள்ளிடவும்"
+                            android:textAlignment="center"
+                            android:textColor="#7CB342"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button63" />
+
+                        <TextView
+                            android:id="@+id/textView751"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="தூண் அகலம்"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView750" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView751" />
+
+                        <TextView
+                            android:id="@+id/textView822"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="தூண் நீளம்"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal5" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal5"
+                            app:layout_constraintTop_toBottomOf="@+id/textView822" />
+
+                        <TextView
+                            android:id="@+id/textView823"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="மெயின் கம்பி  எண்ணிக்கை "
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal34" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal34"
+                            app:layout_constraintTop_toBottomOf="@+id/textView823" />
+
+                        <TextView
+                            android:id="@+id/textView824"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="ரிங் கம்பி இடைவெளி"
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal69" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal32"
+                            app:layout_constraintTop_toBottomOf="@+id/textView824" />
+
+                        <TextView
+                            android:id="@+id/textView832"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="மெயின் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal70" />
+
+                        <TextView
+                            android:id="@+id/textView833"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="டிஸ்ட்ரிபியூஷன் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal41" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal33"
+                            app:layout_constraintTop_toBottomOf="@+id/textView832" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal41"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView833" />
+
+                        <Button
+                            android:id="@+id/button95"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:backgroundTint="#43A047"
+                            android:text="தனி கணக்கிடு"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal42" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout17">
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal71"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal36"
+                            app:layout_constraintTop_toBottomOf="@+id/textView881" />
+
+                        <TextView
+                            android:id="@+id/textView881"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="டிஸ்ட்ரிபியூஷன் கம்பி எண்ணிக்கை "
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal36" />
+
+                        <TextView
+                            android:id="@+id/textView753"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="பீம்  நான்கு பக்கங்களைக் கொண்டது, இரண்டு பக்கங்களும் ஒரே அளவு மற்றும் மற்ற இரண்டு பக்கங்களும் ஒரே அளவு.பீம்  அளவை உள்ளிடவும்."
+                            android:textAlignment="center"
+                            android:textColor="#7CB342"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView754"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="பீம் அளவை உள்ளிடவும்"
+                            android:textColor="#7CB342"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView753" />
+
+                        <TextView
+                            android:id="@+id/textView755"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="பீம் நீளம்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView754" />
+
+                        <TextView
+                            android:id="@+id/textView756"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="பீம் அகலம்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal6" />
+
+                        <TextView
+                            android:id="@+id/textView757"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="பீம்  உயரம்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal7" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView755" />
+
+                        <Spinner
+                            android:id="@+id/spinner4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal6" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal6"
+                            app:layout_constraintTop_toBottomOf="@+id/textView756" />
+
+                        <Spinner
+                            android:id="@+id/spinneeeeer5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner4"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal7" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal7"
+                            app:layout_constraintTop_toBottomOf="@+id/textView757" />
+
+                        <Spinner
+                            android:id="@+id/spinner6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinneeeeer5"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal8" />
+
+                        <TextView
+                            android:id="@+id/textView825"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="ரிங் கம்பி இடைவெளி"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal8" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal8"
+                            app:layout_constraintTop_toBottomOf="@+id/textView825" />
+
+                        <Spinner
+                            android:id="@+id/spinner14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner6"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal35" />
+
+                        <TextView
+                            android:id="@+id/textView826"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="மெயின் கம்பி  எண்ணிக்கை "
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal35" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal35"
+                            app:layout_constraintTop_toBottomOf="@+id/textView826" />
+
+                        <TextView
+                            android:id="@+id/textView834"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="மெயின் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal71" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal36"
+                            app:layout_constraintTop_toBottomOf="@+id/textView834" />
+
+                        <Spinner
+                            android:id="@+id/spinner20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner14"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal43" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal43"
+                            app:layout_constraintTop_toBottomOf="@+id/textView835" />
+
+                        <Spinner
+                            android:id="@+id/spinner21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner20"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal44" />
+
+                        <TextView
+                            android:id="@+id/textView835"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="டிஸ்ட்ரிபியூஷன் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal43" />
+
+                        <Button
+                            android:id="@+id/button98"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:backgroundTint="#43A047"
+                            android:text="தனி கணக்கிடு"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal44" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout18">
+
+                        <TextView
+                            android:id="@+id/textView745"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="கூரை ஸ்லாப்  அளவை உள்ளிடவும்"
+                            android:textColor="#7CB342"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView783" />
+
+                        <TextView
+                            android:id="@+id/textView780"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="ஸ்லாப் நீளம்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView745" />
+
+                        <TextView
+                            android:id="@+id/textView781"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text=" ஸ்லாப் அகலம்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal13" />
+
+                        <TextView
+                            android:id="@+id/textView782"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="ஸ்லாப் உயரம்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal14" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView780" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal13"
+                            app:layout_constraintTop_toBottomOf="@+id/textView781" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal14"
+                            app:layout_constraintTop_toBottomOf="@+id/textView782" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal45"
+                            app:layout_constraintTop_toBottomOf="@+id/textView837" />
+
+                        <Spinner
+                            android:id="@+id/spinner7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal13" />
+
+                        <Spinner
+                            android:id="@+id/spinner8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal14" />
+
+                        <Spinner
+                            android:id="@+id/spinner9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal15" />
+
+                        <TextView
+                            android:id="@+id/textView783"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:text="கூரை ஸ்லாப் வலுவூட்டல் என்பது கான்கிரீட் ஸ்லாப்பிற்குள் எஃகு கம்பிகளை (ரீபார்) உட்பொதித்து அதை வலுப்படுத்தவும், சுமைகளின் கீழ் விரிசல் ஏற்படுவதைத் தடுக்கவும் செய்கிறது. வலுவூட்டல் பொதுவாக ஒரு கட்ட வடிவில் அமைக்கப்பட்டிருக்கும், முக்கிய பார்கள் ஒரு திசையில் இயங்கும் மற்றும் விநியோக பார்கள் செங்குத்தாக இருக்கும். இந்த வலுவூட்டல் ஸ்லாப் கூரையின் எடையை ஆதரிக்கும், சுற்றுச்சூழல் அழுத்தங்களை தாங்கும் மற்றும் காலப்போக்கில் கட்டமைப்பு ஒருமைப்பாட்டை பராமரிக்கிறது."
+                            android:textAlignment="center"
+                            android:textColor="#7CB342"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toTopOf="@+id/textView745"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView827"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="கம்பி இடைவெளி"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal15" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal15"
+                            app:layout_constraintTop_toBottomOf="@+id/textView827" />
+
+                        <Spinner
+                            android:id="@+id/spinner16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner9"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal37" />
+
+                        <TextView
+                            android:id="@+id/textView828"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="ஸ்லாப் எண்ணிக்கை"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal37" />
+
+                        <TextView
+                            android:id="@+id/textView836"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="மெயின் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal38" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal38"
+                            app:layout_constraintTop_toBottomOf="@+id/textView836" />
+
+                        <TextView
+                            android:id="@+id/textView837"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="டிஸ்ட்ரிபியூஷன் கம்பி டியாமீட்டர்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal45" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal37"
+                            app:layout_constraintTop_toBottomOf="@+id/textView828" />
+
+                        <Spinner
+                            android:id="@+id/spinner22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner16"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal45" />
+
+                        <Spinner
+                            android:id="@+id/spinner23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner22"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal46" />
+
+                        <Spinner
+                            android:id="@+id/spinner17"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="@+id/spinner16"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal38" />
+
+                        <Button
+                            android:id="@+id/button99"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:backgroundTint="#43A047"
+                            android:text="தனி கணக்கிடு"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal46" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout20">
+
+                        <TextView
+                            android:id="@+id/textView758"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:text="பொருளின் விலை கணக்கிட அளவை உள்ளிடவும்."
+                            android:textColor="#7CB342"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView759"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:text="கட்டு கம்பி கிலோகிராம்  விலை"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView758" />
+
+                        <TextView
+                            android:id="@+id/textView760"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="கம்பி கிலோகிராம் விலை"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal9" />
+
+                        <TextView
+                            android:id="@+id/textView761"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:text="ஆணி கிலோகிராம் விலை"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toStartOf="@+id/editTextNumberDecimal11"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView760" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView759" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:inputType="numberDecimal"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView760" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal11"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:inputType="numberDecimal"
+                            android:text="65"
+                            android:textAlignment="center"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="@+id/textView761"
+                            app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal10"
+                            app:layout_constraintTop_toTopOf="@+id/textView761" />
+
+                        <Button
+                            android:id="@+id/button73"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:backgroundTint="#43A047"
+                            android:text="மொத்தம் கணக்கிடு"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView761" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout19">
+
+                        <TextView
+                            android:id="@+id/textView763"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="முடிவுகள்&quot; or &quot;தீர்வு"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView764"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:text="1.அடித்தளம் அளவுகள் "
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView763" />
+
+                        <TextView
+                            android:id="@+id/textView765"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="2.தூண் அளவுகள்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView764" />
+
+                        <TextView
+                            android:id="@+id/textView766"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="3.பீம் அளவை உள்ளிடவும்"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView765" />
+
+                        <TextView
+                            android:id="@+id/textView767"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="200dp"
+                            android:text="4.கூரை ஸ்லாப்  அளவை உள்ளிடவும்"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView766" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

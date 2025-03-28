@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".veetumanai_kuli_kanakku">
+    tools:context=".veetumanai_kuli_kanakku"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,91 +19,32 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:visibility="visible">
 
-                <TextView
-                    android:id="@+id/textView624"
-                    android:layout_width="wrap_content"
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView59"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView623"
-                    app:layout_constraintTop_toTopOf="@+id/textView612" />
-
-                <TextView
-                    android:id="@+id/textView623"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView622"
-                    app:layout_constraintTop_toTopOf="@+id/textView611" />
-
-                <TextView
-                    android:id="@+id/textView622"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView621"
-                    app:layout_constraintTop_toTopOf="@+id/textView610" />
-
-                <TextView
-                    android:id="@+id/textView621"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView620"
-                    app:layout_constraintTop_toTopOf="@+id/textView609" />
-
-                <TextView
-                    android:id="@+id/textView620"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView619"
-                    app:layout_constraintTop_toTopOf="@+id/textView608" />
-
-                <TextView
-                    android:id="@+id/textView619"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView618"
-                    app:layout_constraintTop_toTopOf="@+id/textView607" />
-
-                <TextView
-                    android:id="@+id/textView618"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView617"
-                    app:layout_constraintTop_toTopOf="@+id/textView606" />
-
-                <TextView
-                    android:id="@+id/textView617"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0 குழி"
-                    app:layout_constraintStart_toStartOf="@+id/textView604"
-                    app:layout_constraintTop_toTopOf="@+id/textView605" />
-
-                <TextView
-                    android:id="@+id/textView604"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="-100dp"
-                    android:text="சதுரடி "
-                    app:layout_constraintBottom_toBottomOf="@+id/textView603"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-8900433304953392/6951866900"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/textView603" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView598"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginTop="8dp"
                     android:text="வீட்டுமனை செவ்வகம் அல்லது சதுரமாகவோ இருந்தால் மட்டும் அதன்  நீளம் அகலம் அளவு நன்றாக தெரியும் எனில் அதன் அளவை பதிவு செய்து விட்டு  கணக்கிடுங்கள் யேன்று பட்டனன அழுத்தவும் "
+                    android:textSize="16sp"
+                    android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toBottomOf="@+id/adView59" />
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -110,6 +52,7 @@
                     android:layout_height="250dp"
                     android:layout_marginTop="24dp"
                     android:src="@drawable/veeduplan"
+                    android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView598" />
@@ -118,8 +61,10 @@
                     android:id="@+id/textView599"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="8dp"
                     android:text="வீட்டுமனை செவ்வகம் அல்லது சதுரமாகவோ இல்லாவிட்டால் அதன் பரப்பளவை கண்டறிந்து அதனை குறிப்பிட்டுவிட்டு கணக்கிடு பட்டனன அழுத்தவும் "
+                    android:textSize="16sp"
+                    android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button24" />
@@ -128,8 +73,9 @@
                     android:id="@+id/imageView3"
                     android:layout_width="250dp"
                     android:layout_height="250dp"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="8dp"
                     android:src="@drawable/veedu"
+                    android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView599" />
@@ -138,9 +84,11 @@
                     android:id="@+id/textView600"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="24dp"
                     android:text="நீளம்"
+                    android:textSize="16sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -148,62 +96,77 @@
                     android:id="@+id/textView601"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="8dp"
                     android:text="அகலம்"
+                    android:textSize="16sp"
+                    android:visibility="visible"
                     app:layout_constraintStart_toStartOf="@+id/textView600"
-                    app:layout_constraintTop_toBottomOf="@+id/textView600" />
+                    app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 
                 <EditText
                     android:id="@+id/editTextNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edittext_number"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:text="0"
-                    app:layout_constraintBottom_toBottomOf="@+id/textView600"
-                    app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
-                    app:layout_constraintTop_toTopOf="@+id/textView600" />
+                    android:textAlignment="center"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView600" />
 
                 <EditText
                     android:id="@+id/editTextNumber2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edittext_number"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:text="0"
-                    app:layout_constraintBottom_toBottomOf="@+id/textView601"
-                    app:layout_constraintStart_toEndOf="@+id/textView601"
-                    app:layout_constraintTop_toTopOf="@+id/textView601" />
+                    android:textAlignment="center"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView601" />
 
                 <TextView
                     android:id="@+id/textView602"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="8dp"
                     android:text="பரப்பளவு "
-                    app:layout_constraintBottom_toBottomOf="@+id/editTextNumberDecimal"
+                    android:textSize="16sp"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal" />
+                    app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
 
                 <EditText
                     android:id="@+id/editTextNumberDecimal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edittext_number"
                     android:ems="10"
                     android:inputType="numberDecimal"
-                    android:text="0"
-                    app:layout_constraintStart_toEndOf="@+id/textView602"
+                    android:text="0 sq.ft"
+                    android:textAlignment="center"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
                 <Button
                     android:id="@+id/button24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#43A047"
                     android:text="கணக்கிடுங்கள் "
+                    android:textSize="16sp"
+                    android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
@@ -212,168 +175,285 @@
                     android:id="@+id/button25"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#43A047"
                     android:text="கணக்கிடு "
+                    android:textSize="16sp"
+                    android:visibility="visible"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
 
-                <TextView
-                    android:id="@+id/textView603"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="32dp"
-                    android:text="பரப்பளவு "
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button25" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <TextView
-                    android:id="@+id/textView605"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="குழி மற்றும் மனை "
-                    app:layout_constraintStart_toStartOf="@+id/textView603"
-                    app:layout_constraintTop_toBottomOf="@+id/textView603" />
-
-                <TextView
-                    android:id="@+id/textView606"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="1.கருப்பம்"
-                    app:layout_constraintStart_toStartOf="@+id/textView605"
-                    app:layout_constraintTop_toBottomOf="@+id/textView605" />
-
-                <TextView
-                    android:id="@+id/textView607"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="2.வரவு "
-                    app:layout_constraintStart_toStartOf="@+id/textView606"
-                    app:layout_constraintTop_toBottomOf="@+id/textView606" />
-
-                <TextView
-                    android:id="@+id/textView608"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="3.செலவு "
-                    app:layout_constraintStart_toStartOf="@+id/textView607"
-                    app:layout_constraintTop_toBottomOf="@+id/textView607" />
-
-                <TextView
-                    android:id="@+id/textView609"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="4.யோனி "
-                    app:layout_constraintStart_toStartOf="@+id/textView608"
-                    app:layout_constraintTop_toBottomOf="@+id/textView608" />
-
-                <TextView
-                    android:id="@+id/textView610"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="5.வயது "
-                    app:layout_constraintStart_toStartOf="@+id/textView609"
-                    app:layout_constraintTop_toBottomOf="@+id/textView609" />
-
-                <TextView
-                    android:id="@+id/textView611"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="100dp"
-                    android:text="6.இராசி "
-                    app:layout_constraintStart_toStartOf="@+id/textView610"
-                    app:layout_constraintTop_toBottomOf="@+id/textView610" />
-
-                <TextView
-                    android:id="@+id/textView612"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="60dp"
-                    android:text="7.இனம்"
-                    app:layout_constraintStart_toStartOf="@+id/textView611"
-                    app:layout_constraintTop_toBottomOf="@+id/textView611" />
-
-                <TextView
-                    android:id="@+id/textView613"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="8.அங்கிசம் "
-                    app:layout_constraintStart_toStartOf="@+id/textView612"
-                    app:layout_constraintTop_toBottomOf="@+id/textView612" />
-
-                <TextView
-                    android:id="@+id/textView614"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="9.நட்சத்திரம் "
-                    app:layout_constraintStart_toStartOf="@+id/textView613"
-                    app:layout_constraintTop_toBottomOf="@+id/textView613" />
-
-                <TextView
-                    android:id="@+id/textView615"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:text="10.திதி"
-                    app:layout_constraintStart_toStartOf="@+id/textView614"
-                    app:layout_constraintTop_toBottomOf="@+id/textView614" />
-
-                <TextView
-                    android:id="@+id/textView616"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="50dp"
-                    android:text="11.வாரம் "
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/textView615"
-                    app:layout_constraintTop_toBottomOf="@+id/textView615" />
-
-                <TextView
-                    android:id="@+id/textView625"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView624"
-                    app:layout_constraintTop_toTopOf="@+id/textView613" />
-
-                <TextView
-                    android:id="@+id/textView626"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView625"
-                    app:layout_constraintTop_toTopOf="@+id/textView614" />
-
-                <TextView
-                    android:id="@+id/textView627"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginBottom="24dp"
-                    android:text="-"
-                    app:layout_constraintBottom_toTopOf="@+id/textView628"
-                    app:layout_constraintStart_toStartOf="@+id/textView626"
-                    app:layout_constraintTop_toTopOf="@+id/textView615" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
 
                 <TextView
                     android:id="@+id/textView628"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="-"
-                    app:layout_constraintStart_toStartOf="@+id/textView627"
-                    app:layout_constraintTop_toTopOf="@+id/textView616" />
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="0"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6151" />
+
+                <TextView
+                    android:id="@+id/textView627"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6141" />
+
+                <TextView
+                    android:id="@+id/textView626"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6131" />
+
+                <TextView
+                    android:id="@+id/textView625"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6121" />
+
+                <TextView
+                    android:id="@+id/textView624"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6111" />
+
+                <TextView
+                    android:id="@+id/textView623"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6101" />
+
+                <TextView
+                    android:id="@+id/textView622"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6091" />
+
+                <TextView
+                    android:id="@+id/textView621"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6081" />
+
+                <TextView
+                    android:id="@+id/textView620"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6071" />
+
+                <TextView
+                    android:id="@+id/textView619"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6061" />
+
+                <TextView
+                    android:id="@+id/textView618"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6051" />
+
+                <TextView
+                    android:id="@+id/textView617"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6041" />
+
+                <TextView
+                    android:id="@+id/textView616"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6031" />
+
+                <TextView
+                    android:id="@+id/textView6151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="13.வாரம்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView627" />
+
+                <TextView
+                    android:id="@+id/textView6141"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="12.திதி"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView626" />
+
+                <TextView
+                    android:id="@+id/textView6131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="11.நட்சத்திரம்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView625" />
+
+                <TextView
+                    android:id="@+id/textView6121"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="10.அங்கிசம்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView624" />
+
+                <TextView
+                    android:id="@+id/textView6111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="9.இனம்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView623" />
+
+                <TextView
+                    android:id="@+id/textView6101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="8.இராசி"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView622" />
+
+                <TextView
+                    android:id="@+id/textView6031"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="1.பரப்பளவு"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView6041"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="2.குழி மற்றும் மனை"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView616" />
+
+                <TextView
+                    android:id="@+id/textView6051"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="3.கருப்பம்"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView617" />
+
+                <TextView
+                    android:id="@+id/textView6061"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="4.வரவு"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView618" />
+
+                <TextView
+                    android:id="@+id/textView6071"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="5.செலவு"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView619" />
+
+                <TextView
+                    android:id="@+id/textView6081"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="6.யோனி"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView620" />
+
+                <TextView
+                    android:id="@+id/textView6091"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="7.வயது"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView621" />
             </androidx.constraintlayout.widget.ConstraintLayout>
+
         </LinearLayout>
     </ScrollView>
 

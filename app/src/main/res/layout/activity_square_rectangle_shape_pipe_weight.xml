@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".square_rectangle_shape_pipe_weight"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginEnd="-50dp"
+            android:rotation="45"
+            android:src="@drawable/a1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a1" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginEnd="-100dp"
+            android:rotation="45"
+            android:src="@drawable/a2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a2" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:rotation="45"
+            android:src="@drawable/a3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="தமிழ் காலண்டர் "
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button72"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#00000000"
+            android:foreground="@drawable/ic_share_24"
+            app:layout_constraintEnd_toEndOf="@+id/imageView14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView522"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="50dp"
+            android:text="சதுர உலோக கம்பி எடை"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button72" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/imageView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="150dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/rectangle_pipe" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout25"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout24">
+
+                        <Spinner
+                            android:id="@+id/spinner27"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal49"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal49" />
+
+                        <TextView
+                            android:id="@+id/textView859"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="நீளம் L ="
+                            app:layout_constraintStart_toStartOf="@+id/textView838"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal48" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal54"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            android:inputType="numberDecimal"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal48"
+                            app:layout_constraintTop_toBottomOf="@+id/textView859" />
+
+                        <Spinner
+                            android:id="@+id/spinner31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinnerr26"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal54" />
+
+                        <Spinner
+                            android:id="@+id/spinnerr26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="@+id/spinnerr255"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal48" />
+
+                        <Spinner
+                            android:id="@+id/spinnerr255"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="16dp"
+                            android:background="@color/greeen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal47" />
+
+                        <TextView
+                            android:id="@+id/textView829"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginTop="16dp"
+                            android:text=" நீளம் L1 ="
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView838"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="11dp"
+                            android:text="  நீளம் L2 ="
+                            app:layout_constraintStart_toStartOf="@+id/textView829"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal47" />
+
+                        <TextView
+                            android:id="@+id/textView839"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="11dp"
+                            android:text=" எண்ணிக்கை  ="
+                            app:layout_constraintStart_toStartOf="@+id/textView838"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal54" />
+
+                        <TextView
+                            android:id="@+id/textView840"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="11dp"
+                            android:text=" விலை  ="
+                            app:layout_constraintStart_toStartOf="@+id/textView839"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal49" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            android:inputType="numberDecimal"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView829" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            android:inputType="numberDecimal"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal47"
+                            app:layout_constraintTop_toBottomOf="@+id/textView838" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            android:inputType="numberDecimal"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal48"
+                            app:layout_constraintTop_toBottomOf="@+id/textView839" />
+
+                        <EditText
+                            android:id="@+id/editTextNumberDecimal50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/edittext_number"
+                            android:ems="10"
+                            android:hint="0.0"
+                            android:textAlignment="center"
+                            android:textColorHint="@color/greeen"
+                            android:inputType="numberDecimal"
+                            app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal49"
+                            app:layout_constraintTop_toBottomOf="@+id/textView840" />
+
+                        <Button
+                            android:id="@+id/button101"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:backgroundTint="#43A047"
+                            android:text="கணக்கிடு"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal50" />
+
+
+                        <com.google.android.gms.ads.AdView
+                            android:id="@+id/adView44"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="ca-app-pub-8900433304953392/3943007291"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/button101" />
+
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout25">
+
+                        <TextView
+                            android:id="@+id/textView841"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="0  கிலோகிராம் "
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView842"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="200dp"
+                            android:text="0 விலை"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView841" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

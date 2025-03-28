@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -16,7 +18,171 @@
         android:theme="@style/Theme.TamilCalender"
         tools:targetApi="31">
         <activity
+            android:name=".kagam_karaiyum_palane"
+            android:exported="false" />
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8900433304953392~4627966213" />
+
+        <activity
+            android:name=".a1page"
+            android:exported="true"></activity>
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".a1_enter_first_page"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.a1page" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".round_pipe_weight"
+            android:exported="false" />
+        <activity
+            android:name=".pattachitta_aregister_webview"
+            android:exported="false" />
+        <activity
+            android:name=".i_shape_weight"
+            android:exported="false" />
+        <activity
+            android:name=".t_shape_weight"
+            android:exported="false" />
+        <activity
+            android:name=".hexagane_shape_weight"
+            android:exported="false" />
+        <activity
+            android:name=".square_rectangle_shape_pipe_weight"
+            android:exported="false" />
+        <activity
+            android:name=".square_rectangle_shape_weight"
+            android:exported="false" />
+        <activity
+            android:name=".plain_round_bar_steel"
+            android:exported="false" />
+        <activity
+            android:name=".pressure_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".data_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".time_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".voltage_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".fuel_conversin_unit"
+            android:exported="false" />
+        <activity
+            android:name=".speed_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".work_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".power_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".weight_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".volume_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".temperature_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".angle_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".area_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".length_conversion_unit"
+            android:exported="false" />
+        <activity
+            android:name=".trapezoidal_shape_area"
+            android:exported="false" />
+        <activity
+            android:name=".allipse_shape_area"
+            android:exported="false" />
+        <activity
+            android:name=".circle_shape_area"
+            android:exported="false" />
+        <activity
+            android:name=".triangle_shape_area"
+            android:exported="false" />
+        <activity
+            android:name=".rectangle_shape_area"
+            android:exported="false" />
+        <activity
+            android:name=".square_shape_area"
+            android:exported="false" />
+        <activity
+            android:name=".find_forth_side"
+            android:exported="false" />
+        <activity
+            android:name=".uneven_area_shape"
+            android:exported="false" />
+        <activity
+            android:name=".electric_work"
+            android:exported="false" />
+        <activity
+            android:name=".watertank_quantity"
+            android:exported="false" />
+        <activity
+            android:name=".staircase_caculate"
+            android:exported="false" />
+        <activity
+            android:name=".reinforcement_steel_all"
+            android:exported="false" />
+        <activity
+            android:name=".Mukkal_jally_concrete_roof_beam_pillar"
+            android:exported="false" />
+        <activity
+            android:name=".R_R_masontry_and_course_rubble"
+            android:exported="false" />
+        <activity
+            android:name=".basement_floor_concrete"
+            android:exported="false" />
+        <activity
+            android:name=".soil_fill_quantity"
+            android:exported="false" />
+        <activity
+            android:name=".wooden_main_door_polish"
+            android:exported="false" />
+        <activity
+            android:name=".wooden_door"
+            android:exported="false" />
+        <activity
+            android:name=".window_wood_work"
+            android:exported="false" />
+        <activity
+            android:name=".paint_putty"
+            android:exported="false" />
+        <activity
+            android:name=".tiles_wall_pillars_elevation"
+            android:exported="false" />
+        <activity
+            android:name=".tiles_ground"
+            android:exported="false" />
+        <activity
+            android:name=".Cement_plaster"
+            android:exported="false" />
+        <activity
+            android:name=".brick_mortar"
             android:exported="false" />
         <activity
             android:name=".compass"
@@ -42,15 +208,6 @@
         <activity
             android:name=".Veetumanaiyadi_Kuli_Kanakku"
             android:exported="false" />
-        <activity
-            android:name=".splashscreen"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".rrrrasi"
             android:exported="false" />
@@ -96,18 +253,6 @@
         <activity
             android:name=".vasthu"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
     </application>
 
 </manifest>

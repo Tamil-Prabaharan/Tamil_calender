@@ -8,6 +8,10 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -15,7 +19,7 @@ import java.util.Locale;
 import java.util.Random;
 
 public class vasthu extends AppCompatActivity {
-
+    private AdView adView;
     private TextView textView;
     private Handler handler;
     private String[] texts = {
@@ -33,11 +37,23 @@ public class vasthu extends AppCompatActivity {
         setContentView(R.layout.activity_vasthu);
 
 
+
+        //todo:banner ads
+        // Initialize the Mobile Ads SDK
+        MobileAds.initialize(this, initializationStatus -> {});
+        // Find the AdView as defined in the XML
+        adView = findViewById(R.id.adView57);
+        // Create an ad request
+        AdRequest adRequest = new AdRequest.Builder().build();
+        // Load the ad into the AdView
+        adView.loadAd(adRequest);
+
         textView = findViewById(R.id.textView4);
         handler = new Handler(Looper.getMainLooper());
 
         // Start the text changing task
         changeTextPeriodically();
+
     }
 
     private void changeTextPeriodically() {

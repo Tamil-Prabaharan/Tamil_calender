@@ -2,7 +2,6 @@ package com.tamilcalender;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.R.color;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +9,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class veetumanai_kuli_kanakku extends AppCompatActivity {
+    private AdView adView;
     private EditText length,width,area;
     private Button b1,b2;
     private TextView parapalavu,manai,karupam,varavu,sealavu,yoni,vayathu,rasi,enam,angesam,naksathiram,thithi,varam;
@@ -20,11 +24,22 @@ public class veetumanai_kuli_kanakku extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_veetumanai_kuli_kanakku);
 
+
+        //todo:banner ads
+        // Initialize the Mobile Ads SDK
+        MobileAds.initialize(this, initializationStatus -> {});
+        // Find the AdView as defined in the XML
+        adView = findViewById(R.id.adView59);
+        // Create an ad request
+        AdRequest adRequest = new AdRequest.Builder().build();
+        // Load the ad into the AdView
+        adView.loadAd(adRequest);
+
         length = (EditText) findViewById(R.id.editTextNumber);
         width  = (EditText)findViewById(R.id.editTextNumber2);
         area   = (EditText)findViewById(R.id.editTextNumberDecimal);
 
-        parapalavu = (TextView) findViewById(R.id.textView604);
+        parapalavu = (TextView) findViewById(R.id.textView616);
         manai  = (TextView)findViewById(R.id.textView617);
         karupam   = (TextView)findViewById(R.id.textView618);
         varavu = (TextView)findViewById(R.id.textView619);
@@ -43,6 +58,7 @@ public class veetumanai_kuli_kanakku extends AppCompatActivity {
 
         l1();
         l2();
+
 
     }
 
@@ -484,6 +500,7 @@ public class veetumanai_kuli_kanakku extends AppCompatActivity {
                 }else {
                     naksathiram.setText( "-");
                 }
+
 
 
             }
@@ -935,14 +952,9 @@ public class veetumanai_kuli_kanakku extends AppCompatActivity {
                     naksathiram.setText( "-");
                 }
 
+
             }
         });
     }
-
-
-
-
-
-
 
 }

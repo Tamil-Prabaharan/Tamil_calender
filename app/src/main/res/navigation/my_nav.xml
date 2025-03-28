@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.tamilcalender.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.tamilcalender.BusinessFragment"
+        android:label="fragment_business"
+        tools:layout="@layout/fragment_business" />
+    <fragment
+        android:id="@+id/dateFragment"
+        android:name="com.tamilcalender.DateFragment"
+        android:label="fragment_date"
+        tools:layout="@layout/fragment_date" />
+    <fragment
+        android:id="@+id/calculationFragment"
+        android:name="com.tamilcalender.CalculationFragment"
+        android:label="fragment_calculation"
+        tools:layout="@layout/fragment_calculation" />
+    <fragment
+        android:id="@+id/personloginFragment"
+        android:name="com.tamilcalender.PersonloginFragment"
+        android:label="fragment_personlogin"
+        tools:layout="@layout/fragment_personlogin" />
+</navigation>

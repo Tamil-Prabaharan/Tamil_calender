@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".electric_work"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginEnd="-50dp"
+            android:rotation="45"
+            android:src="@drawable/a1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a1" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:layout_marginEnd="-100dp"
+            android:rotation="45"
+            android:src="@drawable/a2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a2" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-120dp"
+            android:rotation="45"
+            android:src="@drawable/a3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/a3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="தமிழ் காலண்டர் "
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button72"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#00000000"
+            android:foreground="@drawable/ic_share_24"
+            app:layout_constraintEnd_toEndOf="@+id/imageView14"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView522"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="வீட்டுக்கு தேவை படும் எலக்ட்ரிக் பொருட்கள்  தெரிந்து கொள்ளுங்கள்"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button72" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="#00000000"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:menu="@menu/bottom_nav_menu">
+
+                        <com.google.android.gms.ads.AdView
+                            android:id="@+id/adView20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="ca-app-pub-8900433304953392/8073823998"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView594"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="எலக்ட்ரிக் பொருட்கள் "
+                            android:textSize="16sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/adView20" />
+
+                        <TextView
+                            android:id="@+id/textView541"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="150dp"
+                            android:text="ஒரு வீட்டைக் கட்டும் போது, ​​பாதுகாப்பான மற்றும் பயனுள்ள வயரிங் மற்றும் நிறுவலை உறுதிப்படுத்த பல்வேறு மின் பொருட்கள் தேவைப்படுகின்றன. வீடு கட்டுமானத்தில் பயன்படுத்தப்படும் பொதுவான மின் பொருட்களின் பட்டியல் இங்கே:  1. கம்பிகள் மற்றும் கேபிள்கள்: மின் கம்பிகள்: செம்பு அல்லது அலுமினியம் கடத்திகள் உள் வயரிங் பயன்படுத்தப்படுகிறது. பவர் கேபிள்கள்: வீட்டை பிரதான மின்சார விநியோகத்துடன் இணைப்பதற்கான கனமான கேபிள்கள். கோஆக்சியல் கேபிள்கள்: தொலைக்காட்சி மற்றும் இணைய இணைப்புகளுக்கு. ஈதர்நெட் கேபிள்கள்: கம்பி இணைய நெட்வொர்க்குகளுக்கு. 2. வழித்தடங்கள் மற்றும் தும்பிக்கை: PVC கன்ட்யூட்கள்: மின்சார வயரிங் பாதுகாக்கும் மற்றும் வழி செய்யும் பிளாஸ்டிக் குழாய்கள். உலோக வழித்தடங்கள்: உயர் வலிமை பயன்பாடுகளுக்கான எஃகு அல்லது அலுமினிய குழாய்கள். கேபிள் ட்ரங்கிங்: சுவர்கள் அல்லது கூரைகளில் கேபிள்களை ஒழுங்கமைத்து மறைப்பதற்கான சேனல்கள். 3. சுவிட்சுகள் மற்றும் சாக்கெட்டுகள்: ஒளி சுவிட்சுகள்: விளக்குகளை கட்டுப்படுத்தும் நிலையான மற்றும் மங்கலான சுவிட்சுகள். பவர் சாக்கெட்டுகள்: கனரக உபகரணங்களுக்கான பிரத்யேக சாக்கெட்டுகள் உட்பட, மின் சாதனங்களில் செருகுவதற்கான அவுட்லெட்டுகள். USB சாக்கெட்டுகள்: சாதனங்களை சார்ஜ் செய்வதற்கான ஒருங்கிணைந்த USB போர்ட்கள். 4. விநியோக வாரியங்கள்: சர்க்யூட் பிரேக்கர் பேனல்கள் (டிபிகள்): சர்க்யூட் பிரேக்கர்களைக் கட்டுப்படுத்தும் மற்றும் பாதுகாக்கும் பிரதான பேனல்கள். MCBகள் (மினியேச்சர் சர்க்யூட் பிரேக்கர்ஸ்): ஓவர்லோட் அல்லது ஷார்ட் சர்க்யூட் ஏற்பட்டால் தானாகவே அணைக்கப்படும். RCDகள் (எஞ்சிய மின்னோட்ட சாதனங்கள்): கசிவு கண்டறியப்பட்டால் மின்சாரத்தை துண்டித்து மின்சார அதிர்ச்சியிலிருந்து பாதுகாக்கவும். 5. விளக்கு பொருத்துதல்கள்: LED பல்புகள் மற்றும் குழாய்கள்: ஆற்றல்-திறனுள்ள லைட்டிங் விருப்பங்கள். உச்சவரம்பு விளக்குகள்: ஃப்ளஷ் பொருத்தப்பட்ட அல்லது தொங்கும் சாதனங்கள். டவுன்லைட்கள்: கூரைகளுக்கான குறைக்கப்பட்ட விளக்குகள். வெளிப்புற விளக்குகள்: வெளிப்புற விளக்குகளுக்கு வானிலை எதிர்ப்பு சாதனங்கள். 6. மின்விசிறிகள் மற்றும் காற்றோட்டம்: உச்சவரம்பு விசிறிகள்: காற்று சுழற்சி மற்றும் குளிர்ச்சியை வழங்குதல். வெளியேற்ற மின்விசிறிகள்: ஈரப்பதம் மற்றும் துர்நாற்றத்தை அகற்ற சமையலறைகள் மற்றும் குளியலறைகளில் பயன்படுத்தப்படுகிறது. 7. மின் பெட்டிகள் மற்றும் பொருத்துதல்கள்: சந்திப்புப் பெட்டிகள்: கம்பி இணைப்புகளைப் பாதுகாத்து அவற்றைப் பாதுகாப்பாக வைக்க வேண்டும். ஸ்விட்ச் பாக்ஸ்கள்: சுவர்களுக்குள் சுவிட்சுகள் மற்றும் சாக்கெட்டுகளைப் பிடிக்கவும். கவர் தகடுகள்: சுவிட்சுகள், சாக்கெட்டுகள் மற்றும் சந்திப்பு பெட்டிகளுக்கான அலங்கார கவர்கள். 8. பூமிக்குரிய பொருட்கள்: பூமி தண்டுகள்: மின்சாரம் பாதுகாப்பாக சிதறுவதற்கான பாதையை வழங்குவதற்காக தரையில் செலுத்தப்படும் உலோக கம்பிகள். எர்த் வயர்ஸ்: எர்த்டிங் சிஸ்டத்துடன் மின் அமைப்புகளை இணைக்கவும். 9. சர்க்யூட் பாதுகாப்பு சாதனங்கள்: உருகிகள்: ஒரு சர்க்யூட் ஓவர்லோடில் இருக்கும்போது உருகும் எளிய சாதனங்கள். சர்ஜ் ப்ரொடெக்டர்கள்: மின்னழுத்த ஸ்பைக்குகளில் இருந்து உபகரணங்களைப் பாதுகாக்கவும். 10. இதர: மின் நாடா: கம்பி இணைப்புகளுக்கான காப்பு. கேபிள் இணைப்புகள்: கம்பிகளின் மூட்டைகளை ஒழுங்கமைத்து பாதுகாக்கவும். சர்க்யூட் டெஸ்டர்கள்: நேரடி கம்பிகள் மற்றும் சுற்றுகளை சரிபார்க்கும் கருவிகள். இந்த பொருட்கள் ஒரு வீட்டில் பாதுகாப்பான மற்றும் நம்பகமான மின் அமைப்பை அமைப்பதற்கும், சரியான செயல்பாட்டை உறுதி செய்வதற்கும் மின் அபாயங்களுக்கு எதிராக பாதுகாப்பதற்கும் அவசியம்."
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView594" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,13 +5,30 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class rrrrasi extends AppCompatActivity {
     private TextView rasi,description;
+
+    private AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rrrrasi);
+
+        //todo:banner ads
+        // Initialize the Mobile Ads SDK
+        MobileAds.initialize(this, initializationStatus -> {});
+        // Find the AdView as defined in the XML
+        adView = findViewById(R.id.adView7);
+        // Create an ad request
+        AdRequest adRequest = new AdRequest.Builder().build();
+        // Load the ad into the AdView
+        adView.loadAd(adRequest);
+
 
         rasi = (TextView) findViewById(R.id.textView588);
         description = (TextView) findViewById(R.id.textView589);
@@ -46,4 +63,6 @@ public class rrrrasi extends AppCompatActivity {
                 "குறிப்பிடத்தக்கவர்கள் ஆவர். தமிழ் இலக்கியங்களில் மிகவும் அதிகமாக மொழிபெயர்க்கப்பட்ட நூலாகவும் அதிகம் சுட்டப்பட்ட " +
                 "நூலாகவும் அதிகம் சுட்டப்படக்கூடிய நூலாகவும் திருக்குறள் திகழ்கிறது.[27] நாற்பதுக்கும் மேற்பட்ட இந்திய மற்றும் அயல் நாட்டு " +
                 "மொழிகளில் மொழிபெயர்க்கப்பட்டுள்ள இந்நூல் உலகின் அதிகமாக மொழிபெயர்க்கப்பட்ட பண்டைய படைப்புகளில் ஒன்றாகும்." +
-                " 1812-ம் ஆண்டு முதன்முறையாக அச்சுக்கு வந்ததிலிருந்து இடையறாது அச்சில் உள்ள நூலாகக் குறள் திகழ்கிறது.[28] திருக்குறள்" );}}
+                " 1812-ம் ஆண்டு முதன்முறையாக அச்சுக்கு வந்ததிலிருந்து இடையறாது அச்சில் உள்ள நூலாகக் குறள் திகழ்கிறது.[28] திருக்குறள்" );
+
+    }}
